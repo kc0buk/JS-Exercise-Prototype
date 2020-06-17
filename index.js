@@ -104,8 +104,9 @@ Car.prototype.fill = function(gal) {
         + Should return a string "Playing with x", x being the favorite toy.
 */
 function Baby(name, age, favoriteToy) {
-  this.name = name;
-  this.age = age;
+  Person.call(this, name, age);
+  // this.name = name;
+  // this.age = age;
   this.favoriteToy = favoriteToy;
 }
 
@@ -119,10 +120,10 @@ Baby.prototype.play = function() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window or global binding: If not stated otherwise, 'this' will bind to the window or global scope.
+  2. Implicit Binding: When a period precedes a function call, the 'this' keyword referrs to the object immediately prior to 'this'.
+  3. New binding: When used in a constructor function, the 'this' keyword referrs to the new object that is constructed and returned by the constructor function.
+  4. Explicit binding: When used with either the .call or .apply method, 'this' is explicitly defined in the method call by including the target of 'this' inside the parentheses.
 */
 
 

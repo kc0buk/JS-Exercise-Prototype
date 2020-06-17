@@ -42,8 +42,8 @@ Two options are included below.
   [x] Create a new branch by typing `git checkout -b <firstName-lastName>`.
   [x] Install dependencies by typing `npm install`.
   [x] Run tests by typing `npm run test:watch`.
-  1. Work on your branch, push commits and create PR as usual.
-  1. Make sure to commit often!!
+  [x] Work on your branch, push commits and create PR as usual.
+  [x] Make sure to commit often!!
 
   <img alt='instructions VSCode' src='./instructionsVScode.png'>
 </details>

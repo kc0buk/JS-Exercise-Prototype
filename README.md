@@ -36,14 +36,14 @@ Two options are included below.
 <details>
   <summary>2. Using VSCode and the Command Line</summary>
 
-  1. Fork repo and add TL as collaborator on Github.
-  1. Clone _your_ fork (not Lambda's repo by mistake!).
-  1. `cd` into your newly cloned repository.
-  1. Create a new branch by typing `git checkout -b <firstName-lastName>`.
-  1. Install dependencies by typing `npm install`.
-  1. Run tests by typing `npm run test:watch`.
-  1. Work on your branch, push commits and create PR as usual.
-  1. Make sure to commit often!!
+  [x] Fork repo and add TL as collaborator on Github.
+  [x] Clone _your_ fork (not Lambda's repo by mistake!).
+  [x] `cd` into your newly cloned repository.
+  [x] Create a new branch by typing `git checkout -b <firstName-lastName>`.
+  [x] Install dependencies by typing `npm install`.
+  [x] Run tests by typing `npm run test:watch`.
+  [x] Work on your branch, push commits and create PR as usual.
+  [x] Make sure to commit often!!
 
   <img alt='instructions VSCode' src='./instructionsVScode.png'>
 </details>
@@ -69,6 +69,6 @@ There are stretch goals found throughout `index.js`. Do not start work on these 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request** (https://github.com/kc0buk/JS-Exercise-Prototype/pull/1)
+- [x] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
